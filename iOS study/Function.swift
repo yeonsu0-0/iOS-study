@@ -60,6 +60,6 @@ func hello() { print ("hello")}
 sum(a:3, b:5)   //8
 print (sum(a:3, b:5))
 
-printMyNmae(name: "yeonsu")  
+printMyNmae(name: "yeonsu")   
 
 hello()
