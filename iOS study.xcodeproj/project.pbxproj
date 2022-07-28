@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F99B3FB288E819000918B23 /* Function2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F99B3FA288E819000918B23 /* Function2.swift */; };
+		2F876458288FB2BB0071A5F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F876454288F8A1D0071A5F2 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F42BE1D2892CD45008F696E /* practiceCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = practiceCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2F876450288F73E80071A5F2 /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
+		2F876452288F795F0071A5F2 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		2F876454288F8A1D0071A5F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2F99125F288E3D36001BB14F /* iOS study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F991262288E3D36001BB14F /* Hello World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello World.swift"; sourceTree = "<group>"; };
 		2F991269288E3DA8001BB14F /* Collection type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection type.swift"; sourceTree = "<group>"; };
@@ -44,7 +48,7 @@
 		2F991256288E3D36001BB14F = {
 			isa = PBXGroup;
 			children = (
-				2F991261288E3D36001BB14F /* iOS study */,
+				2F991261288E3D36001BB14F /* iOS-Study */,
 				2F991260288E3D36001BB14F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,15 +61,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F991261288E3D36001BB14F /* iOS study */ = {
+		2F991261288E3D36001BB14F /* iOS-Study */ = {
 			isa = PBXGroup;
 			children = (
 				2F991262288E3D36001BB14F /* Hello World.swift */,
 				2F991269288E3DA8001BB14F /* Collection type.swift */,
 				2F99B3F8288E7CB800918B23 /* Function.swift */,
 				2F99B3FA288E819000918B23 /* Function2.swift */,
+				2F876450288F73E80071A5F2 /* Conditional.swift */,
+				2F876452288F795F0071A5F2 /* Loop.swift */,
+				2F876454288F8A1D0071A5F2 /* main.swift */,
+				2F42BE1D2892CD45008F696E /* practiceCode.playground */,
 			);
-			path = "iOS study";
+			path = "iOS-Study";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F99B3FB288E819000918B23 /* Function2.swift in Sources */,
+				2F876458288FB2BB0071A5F2 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
