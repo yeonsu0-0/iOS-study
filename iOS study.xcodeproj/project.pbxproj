@@ -48,7 +48,7 @@
 		2F991256288E3D36001BB14F = {
 			isa = PBXGroup;
 			children = (
-				2F991261288E3D36001BB14F /* iOS-Study Part I */,
+				2F991261288E3D36001BB14F /* iOS-Study */,
 				2F991260288E3D36001BB14F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F991261288E3D36001BB14F /* iOS-Study Part I */ = {
+		2F991261288E3D36001BB14F /* iOS-Study */ = {
 			isa = PBXGroup;
 			children = (
 				2F991262288E3D36001BB14F /* Hello World.swift */,
@@ -73,7 +73,7 @@
 				2F876454288F8A1D0071A5F2 /* Optional.swift */,
 				2F90319C289820C200921391 /* Structure & Class.swift */,
 			);
-			path = "iOS-Study Part I";
+			path = "iOS-Study";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
