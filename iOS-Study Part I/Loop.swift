@@ -31,7 +31,7 @@ for (name, age) in people {
 
 // ================= < While > 구문 =================
 
-while integers.count > 2 {  //조건 숫자에 따라 달라지는 거 뭐지..?
+while integers.count > 3 {  //조건 숫자에 따라 달라지는 거 뭐지..?
     integers.removeLast()
 }
 
