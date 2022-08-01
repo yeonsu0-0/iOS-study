@@ -28,3 +28,15 @@ yeonsuInfo.age = 100
 yeonsuInfo.name = "Bonny"
 
 
+// 클래스 정의
+class Diet {
+    var height: Float = 0.0
+    var weight: Float = 0.0
+}
+
+// 클래스 인스턴스 생성 및 사용
+var yeonsu: Diet = Diet()
+yeonsu.height = 166.8
+
+// 클래스는 참조 타입이기 때문에 소멸
+// deinit 메서드 사용
