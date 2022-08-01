@@ -45,18 +45,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F90319E289822D300921391 /* iOS-Study Part II */ = {
-			isa = PBXGroup;
-			children = (
-				2F90319C289820C200921391 /* Structure & Class.swift */,
-			);
-			path = "iOS-Study Part II";
-			sourceTree = "<group>";
-		};
 		2F991256288E3D36001BB14F = {
 			isa = PBXGroup;
 			children = (
-				2F90319E289822D300921391 /* iOS-Study Part II */,
 				2F991261288E3D36001BB14F /* iOS-Study Part I */,
 				2F991260288E3D36001BB14F /* Products */,
 			);
@@ -80,6 +71,7 @@
 				2F876450288F73E80071A5F2 /* Conditional.swift */,
 				2F876452288F795F0071A5F2 /* Loop.swift */,
 				2F876454288F8A1D0071A5F2 /* Optional.swift */,
+				2F90319C289820C200921391 /* Structure & Class.swift */,
 			);
 			path = "iOS-Study Part I";
 			sourceTree = "<group>";
