@@ -1,6 +1,6 @@
 //
 //  Function2.swift
-//  iOS study
+//  iOS study 
 //
 //  Created by yeonsu on 2022/07/25.
 //
