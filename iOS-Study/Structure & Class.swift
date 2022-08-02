@@ -1,4 +1,4 @@
-//
+// 
 //  structure & class.swift
 //  iOS study
 //
