@@ -58,7 +58,7 @@ func hello() { print ("hello")}
 // ================ < 함수의 호출 > ================
 
 sum(a:3, b:5)   //8
-print (sum(a:3, b:5))
+print (sum(a:3, b:5)) 
 
 printMyNmae(name: "yeonsu")   
 
