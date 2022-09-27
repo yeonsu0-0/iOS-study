@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F3EDFF4289948430094656B /* hello Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F991262288E3D36001BB14F /* hello Swift.swift */; };
+		2FC4BBEC28E3418F005F8D9C /* Optional2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4BBE928E33DDA005F8D9C /* Optional2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,15 +23,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2F876450288F73E80071A5F2 /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
-		2F876452288F795F0071A5F2 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
-		2F876454288F8A1D0071A5F2 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
-		2F90319C289820C200921391 /* Structure & Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure & Class.swift"; sourceTree = "<group>"; };
 		2F99125F288E3D36001BB14F /* iOS study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS study"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F991262288E3D36001BB14F /* hello Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "hello Swift.swift"; sourceTree = "<group>"; };
-		2F991269288E3DA8001BB14F /* Collection type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection type.swift"; sourceTree = "<group>"; };
-		2F99B3F8288E7CB800918B23 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
-		2F99B3FA288E819000918B23 /* Function2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function2.swift; sourceTree = "<group>"; };
+		2FC4BBB928E33DAD005F8D9C /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		2FC4BBBA28E33DAD005F8D9C /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		2FC4BBBB28E33DAD005F8D9C /* Function2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function2.swift; sourceTree = "<group>"; };
+		2FC4BBBC28E33DAD005F8D9C /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		2FC4BBBD28E33DAD005F8D9C /* Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
+		2FC4BBBE28E33DAD005F8D9C /* Structure & Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Structure & Class.swift"; sourceTree = "<group>"; };
+		2FC4BBBF28E33DAD005F8D9C /* Loop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		2FC4BBC028E33DAD005F8D9C /* Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscript.swift; sourceTree = "<group>"; };
+		2FC4BBC128E33DAD005F8D9C /* Type-casting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Type-casting.swift"; sourceTree = "<group>"; };
+		2FC4BBC228E33DAD005F8D9C /* Conditional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
+		2FC4BBC328E33DAD005F8D9C /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		2FC4BBC428E33DAD005F8D9C /* instance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instance.swift; sourceTree = "<group>"; };
+		2FC4BBC528E33DAD005F8D9C /* Access Control.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Access Control.swift"; sourceTree = "<group>"; };
+		2FC4BBC628E33DAD005F8D9C /* Closure2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure2.swift; sourceTree = "<group>"; };
+		2FC4BBC728E33DAD005F8D9C /* Collection type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection type.swift"; sourceTree = "<group>"; };
+		2FC4BBC828E33DAD005F8D9C /* hello Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "hello Swift.swift"; sourceTree = "<group>"; };
+		2FC4BBC928E33DAD005F8D9C /* Monad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monad.swift; sourceTree = "<group>"; };
+		2FC4BBCA28E33DAD005F8D9C /* iOS-study-exam2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOS-study-exam2.swift"; sourceTree = "<group>"; };
+		2FC4BBCB28E33DAD005F8D9C /* Higher-order function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Higher-order function.swift"; sourceTree = "<group>"; };
+		2FC4BBCC28E33DAD005F8D9C /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		2FC4BBCD28E33DAD005F8D9C /* Property_practice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property_practice.swift; sourceTree = "<group>"; };
+		2FC4BBCE28E33DAD005F8D9C /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		2FC4BBCF28E33DAD005F8D9C /* Func programming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Func programming.swift"; sourceTree = "<group>"; };
+		2FC4BBD028E33DAD005F8D9C /* iOS-study-exam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOS-study-exam.swift"; sourceTree = "<group>"; };
+		2FC4BBE928E33DDA005F8D9C /* Optional2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +65,7 @@
 		2F991256288E3D36001BB14F = {
 			isa = PBXGroup;
 			children = (
-				2F991261288E3D36001BB14F /* iOS-Study */,
+				2FC4BBB828E33DAD005F8D9C /* iOS-Study */,
 				2F991260288E3D36001BB14F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,17 +78,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F991261288E3D36001BB14F /* iOS-Study */ = {
+		2FC4BBB828E33DAD005F8D9C /* iOS-Study */ = {
 			isa = PBXGroup;
 			children = (
-				2F991262288E3D36001BB14F /* hello Swift.swift */,
-				2F991269288E3DA8001BB14F /* Collection type.swift */,
-				2F99B3F8288E7CB800918B23 /* Function.swift */,
-				2F99B3FA288E819000918B23 /* Function2.swift */,
-				2F876450288F73E80071A5F2 /* Conditional.swift */,
-				2F876452288F795F0071A5F2 /* Loop.swift */,
-				2F876454288F8A1D0071A5F2 /* Optional.swift */,
-				2F90319C289820C200921391 /* Structure & Class.swift */,
+				2FC4BBB928E33DAD005F8D9C /* Protocol.swift */,
+				2FC4BBBA28E33DAD005F8D9C /* Closure.swift */,
+				2FC4BBBB28E33DAD005F8D9C /* Function2.swift */,
+				2FC4BBBC28E33DAD005F8D9C /* Property.swift */,
+				2FC4BBBD28E33DAD005F8D9C /* Inheritance.swift */,
+				2FC4BBBE28E33DAD005F8D9C /* Structure & Class.swift */,
+				2FC4BBBF28E33DAD005F8D9C /* Loop.swift */,
+				2FC4BBC028E33DAD005F8D9C /* Subscript.swift */,
+				2FC4BBC128E33DAD005F8D9C /* Type-casting.swift */,
+				2FC4BBC228E33DAD005F8D9C /* Conditional.swift */,
+				2FC4BBC328E33DAD005F8D9C /* Extension.swift */,
+				2FC4BBC428E33DAD005F8D9C /* instance.swift */,
+				2FC4BBC528E33DAD005F8D9C /* Access Control.swift */,
+				2FC4BBC628E33DAD005F8D9C /* Closure2.swift */,
+				2FC4BBC728E33DAD005F8D9C /* Collection type.swift */,
+				2FC4BBC828E33DAD005F8D9C /* hello Swift.swift */,
+				2FC4BBC928E33DAD005F8D9C /* Monad.swift */,
+				2FC4BBCA28E33DAD005F8D9C /* iOS-study-exam2.swift */,
+				2FC4BBCB28E33DAD005F8D9C /* Higher-order function.swift */,
+				2FC4BBCC28E33DAD005F8D9C /* Function.swift */,
+				2FC4BBCD28E33DAD005F8D9C /* Property_practice.swift */,
+				2FC4BBCE28E33DAD005F8D9C /* Optional.swift */,
+				2FC4BBCF28E33DAD005F8D9C /* Func programming.swift */,
+				2FC4BBD028E33DAD005F8D9C /* iOS-study-exam.swift */,
+				2FC4BBE928E33DDA005F8D9C /* Optional2.swift */,
 			);
 			path = "iOS-Study";
 			sourceTree = "<group>";
@@ -104,11 +138,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					2F99125E288E3D36001BB14F = {
 						CreatedOnToolsVersion = 13.4;
-						LastSwiftMigration = 1340;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -135,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3EDFF4289948430094656B /* hello Swift.swift in Sources */,
+				2FC4BBEC28E3418F005F8D9C /* Optional2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +209,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -235,6 +270,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -259,7 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -275,7 +313,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
