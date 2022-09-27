@@ -97,3 +97,77 @@ var userColor: String?
 var colorName = userColor ?? "Red"
 print(colorName)
 
+
+
+/*
+ //MARK: - 강제 언래핑
+ 
+ - ! 기호 사용
+ - nil 여부와 관계없이 언래핑 시도 ** nil일 경우 에러가 발생하기 때문에 조심해야 함
+ - 타입 선언이나 옵셔널 체인에 사용
+ */
+
+let intVal1 = Int("123")
+let intVal2 = Int("123")!
+print(intVal1)      // Optional(123)
+print(intVal2)      // 123
+
+
+/*
+ // 암시적 언래핑 옵셔널
+ - 타입 선언 뒤에 !
+ - nil값 다루기 가능
+ - nil로 자동 초기화, 자동 언래핑
+ */
+
+var iuoVal: Int! = 123
+iuoVal = nil
+
+
+// =========================== < 실습 > ===========================
+
+// 옵셔널 선언
+let intValue: Int? = nil
+let intValue2 = Int("123")
+
+print(intValue)     // nil
+print(intValue2)    // Optional(123)
+
+//
+//
+// 옵셔널 바인딩
+if let intValue3 = intValue2 {
+    print(intValue3)    // 123
+}
+
+//
+//
+// 옵셔널 체인
+var strValue: String? = "ABC"
+
+let ret1 = strValue?.lowercased()
+print(ret1)     // Optional("abc")
+
+//
+//
+// 강제 언래핑
+let ret2 = strValue!.lowercased()
+print(ret2)     // abc
+
+// 강제 언래핑의 위험성
+strValue = nil
+let ret3 = strValue?.lowercased()
+print(ret3)     // nil
+
+// let ret4 = str!.lowercased()
+// nil 값에 강제 언래핑을 하게 되면 컴파일 에러 발생!
+
+//
+//
+// 암시적인 옵셔널 언래핑
+var strValue2 : String! = "ABC"
+strValue2.append("!!!!")
+print(strValue2)    // Optional("ABC!!!!")
+
+strValue2 = nil
+// strValue2.append("!!!") 컴파일 에러 발생
