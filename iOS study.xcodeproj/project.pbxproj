@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FC4BBEC28E3418F005F8D9C /* Optional2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4BBE928E33DDA005F8D9C /* Optional2.swift */; };
+		2F15F66228E5C28C00635CE7 /* iOS-study-exam3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F15F65F28E5ADF000635CE7 /* iOS-study-exam3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F15F65F28E5ADF000635CE7 /* iOS-study-exam3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS-study-exam3.swift"; sourceTree = "<group>"; };
 		2F99125F288E3D36001BB14F /* iOS study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC4BBB928E33DAD005F8D9C /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		2FC4BBBA28E33DAD005F8D9C /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 				2FC4BBCF28E33DAD005F8D9C /* Func programming.swift */,
 				2FC4BBD028E33DAD005F8D9C /* iOS-study-exam.swift */,
 				2FC4BBE928E33DDA005F8D9C /* Optional2.swift */,
+				2F15F65F28E5ADF000635CE7 /* iOS-study-exam3.swift */,
 			);
 			path = "iOS-Study";
 			sourceTree = "<group>";
@@ -169,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC4BBEC28E3418F005F8D9C /* Optional2.swift in Sources */,
+				2F15F66228E5C28C00635CE7 /* iOS-study-exam3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
